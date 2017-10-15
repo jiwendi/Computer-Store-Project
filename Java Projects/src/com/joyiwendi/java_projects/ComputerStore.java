@@ -33,13 +33,14 @@ public class ComputerStore {
 
 	public void printTotalValue( ) {
 		// prints the total cost for all computers
-		
+		int total = 0;
+		int cost = 0;
 		for(int i = 0; i<computers.size(); i++) {
 		  for(Computer c : computers) {
-			int total = 0;
-			total = total + c.getTotalValue();	
-			System.out.println(total);
-		  }
+			 cost = c.getTotalValue();
+		 }
+		  total = total + cost;	
 		}
+		System.out.println(total);
 	} 
 }

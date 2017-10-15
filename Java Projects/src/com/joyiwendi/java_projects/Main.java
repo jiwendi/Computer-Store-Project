@@ -11,10 +11,24 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//Computer c1 = new Computer();
-			//System.out.println(c1.getTotalValue());
+		Computer c1 = new Computer();
+		Computer c2 = new Computer();
+		Computer c3 = new Computer();
+		Computer c4 = new Computer();
+		Computer c5 = new Computer();
+		
+		
 		ComputerStore cs = new ComputerStore();
-		cs.printTotalValue();		
+		 cs.addComputer(c1);
+		 cs.addComputer(c2);
+		 cs.addComputer(c3);
+		 cs.addComputer(c4);
+		 cs.addComputer(c5);
+
+		cs.printTotalValue();
+		//cs.printAllComputers();
+			
+		//cs.printTotalValue();		c
 		
 			
 		
