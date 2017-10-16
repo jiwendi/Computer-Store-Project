@@ -26,12 +26,16 @@ public class ComputerStore {
 
 	public void printAllComputers( ) {
 		// prints out all the details of each computer in store
+		
 		for(Computer c : computers) {
 			c.printSummary();
+								 
+			}
 		}
-	}
+		
+	
 
-	public void printTotalValue( ) {
+	public int printTotalValue( ) {
 		// prints the total cost for all computers
 		int total = 0;
 		int cost = 0;
@@ -41,6 +45,6 @@ public class ComputerStore {
 		 }
 		  total = total + cost;	
 		}
-		System.out.println(total);
+		 return total;
 	} 
 }

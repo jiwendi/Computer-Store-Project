@@ -10,9 +10,9 @@ public class Computer {
 
  	public Computer() {
 		
-	    processor = new Processor(600,"Intel ","ReoFX ", 112, "15rpm ", "250nm ");
-		hardDisk = new HardDisk(1200, "Seagat", "1200 rpm", "20gb", "2Tb ");
-		display = new Display(1450,"LG ", "27 inch ","HDMI","black ");
+ 		processor = new Processor(600,"Intel ","ReoFX ", 112, "15rpm ", "250nm ");
+		hardDisk  = new HardDisk(1200, "Seagat", "1200 rpm", "20gb", "2Tb ");
+		display  = new Display(1450,"LG ", "27 inch ","HDMI","black ");
 		motherboard = new Motherboard(2473,"ASUS ","H270F ","ROG Strix ",17);
 	
 		}

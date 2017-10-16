@@ -2,14 +2,15 @@ package com.joyiwendi.java_projects;
 
 public class Main {
 	
-	//Component p1 = new Component();
-	//p1.setDescription(Intel);
-	//p1.setCost(200);
-	
-	
-	
+	/*
+	 * This main class is used for testing all the setup from other classes
+	 */
 
 	public static void main(String[] args) {
+		
+		
+		
+		// setting up computers
 		
 		Computer c1 = new Computer();
 		Computer c2 = new Computer();
@@ -17,7 +18,7 @@ public class Main {
 		Computer c4 = new Computer();
 		Computer c5 = new Computer();
 		
-		
+		//Adding computers to the ArrayList of computers in the Computer Store
 		ComputerStore cs = new ComputerStore();
 		 cs.addComputer(c1);
 		 cs.addComputer(c2);
@@ -25,11 +26,14 @@ public class Main {
 		 cs.addComputer(c4);
 		 cs.addComputer(c5);
 
-		cs.printTotalValue();
-		//cs.printAllComputers();
-			
-		//cs.printTotalValue();		c
+		 //printing the total value
+		 int total = cs.printTotalValue();
+		System.out.println("The total value of all computers in the store is: $" + total);
 		
+		//Print a summary of all computers
+				cs.printAllComputers();
+			
+	
 			
 		
 		
