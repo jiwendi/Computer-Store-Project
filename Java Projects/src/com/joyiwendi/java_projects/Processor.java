@@ -17,18 +17,14 @@ public class Processor extends Component {
 	}
 	
 
-	public Processor(int cost, String manufacturer) {
-		super(cost, manufacturer);
-	}
-
-	
+		
 
 	public String getSocket() {
 		return socket;
 	}
 
 
-	public void setSocket(String socket) {
+	public void changeSocket(String socket) {
 		this.socket = socket;
 	}
 
@@ -38,7 +34,7 @@ public class Processor extends Component {
 	}
 
 
-	public void setClock_speed(int clock_speed) {
+	public void changeClock_speed(int clock_speed) {
 		this.clock_speed = clock_speed;
 	}
 
@@ -48,7 +44,7 @@ public class Processor extends Component {
 	}
 
 
-	public void setCache_size(String cache_size) {
+	public void changeCache_size(String cache_size) {
 		this.cache_size = cache_size;
 	}
 
@@ -58,11 +54,10 @@ public class Processor extends Component {
 	}
 
 
-	public void setProcessor_size(String processor_size) {
+	public void changeProcessor_size(String processor_size) {
 		this.processor_size = processor_size;
 	}
 	
-
 	
 		
 }

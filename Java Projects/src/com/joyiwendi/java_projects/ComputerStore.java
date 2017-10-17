@@ -47,4 +47,38 @@ public class ComputerStore {
 		}
 		 return total;
 	} 
+	
+	// This version will use a traditional for loop
+	public Computer findMostExpensiveComputerV1() {
+		Computer mostExpensive = computers.get(0);
+		
+		for(int i = 0; i<computers.size(); i++) {
+		  if (mostExpensive.getTotalValue() < computers.get(i).getTotalValue()) {
+			  mostExpensive = computers.get(i);
+			  
+	  }
+		
+	 }
+		 return mostExpensive;
+	}
+	
+	
+	// This version will use a traditional while loop
+	public Computer findMostExpensiveComputerV2() {
+		
+		Computer mostExpensive = computers.get(0);
+		int i = 0;
+		while(i < computers.size()){
+			
+			if(mostExpensive.getTotalValue() < computers.get(i).getTotalValue());
+			 mostExpensive = computers.get(i);
+			
+		}	
+		return mostExpensive;
+		
+		}
+	
+	
+
+
 }

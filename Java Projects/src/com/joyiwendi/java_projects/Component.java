@@ -1,5 +1,7 @@
 package com.joyiwendi.java_projects;
 
+import java.util.Random;
+
 public class Component {
 		
 		private int cost;
@@ -8,7 +10,8 @@ public class Component {
 			
 		//Constructors
 		public Component(int cost, String manufacturer) {
-			this.cost = cost;
+			
+	       	this.cost = cost;
 			this.manufacturer = manufacturer;
 						
 }

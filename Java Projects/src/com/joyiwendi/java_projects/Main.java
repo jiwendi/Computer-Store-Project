@@ -32,6 +32,15 @@ public class Main {
 		
 		//Print a summary of all computers
 				cs.printAllComputers();
+				
+				
+				// find most extensive computer with for loop
+				cs.findMostExpensiveComputerV1();
+				
+				
+				
+				// find most extensive computer with while loop
+				cs.findMostExpensiveComputerV2();
 			
 	
 			
